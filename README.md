@@ -22,3 +22,6 @@ To build, download TTLib.zip from the link above and extract it in the same dire
 [7+ Taskbar Tweaker](https://ramensoftware.com/7-taskbar-tweaker) (written by the same author the as 7+ Taskbar Tweaking Library)
 provides settings to configure shortcuts to move button groups, but there is no
 way to move the active button within its group as far as I know.
+
+## TODO
+- Allow changing the shortcuts dynamically — maybe using a config file or just command line arguments.
