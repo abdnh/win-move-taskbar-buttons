@@ -166,7 +166,6 @@ int WINAPI WinMain(HINSTANCE hInstance,
         }
     }
     failed_keys[offset] = L'\0';
-    MessageBoxW(hwnd, failed_keys, NULL, MB_OK);
     if (!reg_ret) {
         wchar_t err_msg[260];
         swprintf(err_msg, 260, L"failed to register hotkeys:\n\n%s",
